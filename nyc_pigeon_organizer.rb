@@ -21,6 +21,7 @@ def nyc_pigeon_organizer(data)
           pigeon_list[name][attribute] = [sub_attribute.to_s]
         else 
           pigeon_list[name][attribute] << sub_attribute.to_s
+        end
       end 
       
     end 
