@@ -17,7 +17,7 @@ def nyc_pigeon_organizer(data)
     data_set.each do |sub_attribute, array|
       
       array.each do |name|
-        pigeon_list[name][attribute] = sub_attribute.to_s
+        pigeon_list[name][attribute] = [sub_attribute.to_s]
       end 
       
     end 
