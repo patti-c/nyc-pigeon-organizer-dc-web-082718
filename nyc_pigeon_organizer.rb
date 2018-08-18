@@ -17,7 +17,7 @@ def nyc_pigeon_organizer(data)
     data_set.each do |sub_attribute, array|
       
       array.each do |name|
-        if pigeon_list[name][attribute]
+        if pigeon_list[name][attribute].key?
         pigeon_list[name][attribute] = [sub_attribute.to_s]
       end 
       
