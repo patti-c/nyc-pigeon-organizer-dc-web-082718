@@ -22,6 +22,7 @@ def nyc_pigeon_organizer(data)
         else 
           if attribute != :gender
             pigeon_list[name][attribute] << sub_attribute.to_s
+          end 
         end
       end 
       
